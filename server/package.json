@@ -1,0 +1,20 @@
+{
+  "name": "fraud-naashak-server",
+  "version": "1.0.0",
+  "description": "Backend API services for Fraud-Naashak (PS-01 Mule Account Detection Platform)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "seed": "node src/scripts/seedData.js",
+    "test": "node src/scripts/verifySystemE2E.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0"
+  }
+}
